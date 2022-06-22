@@ -1,4 +1,4 @@
-
+<!-- 
 <footer class="text-center text-lg-start text-white pt-5">
 <div class="footer">
     <section class="">
@@ -77,4 +77,4 @@
 <div class="copyright">
      © 2020 HapoLearn, Inc. All rights reserved.
 </div>
-</footer>
+</footer> -->

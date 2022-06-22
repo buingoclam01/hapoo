@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn1">
                         <img src="{{ asset('images/html-css.png') }}" class="card-img-top" alt="Học HTML, CSS và JS">
                     </div>
                     <div class="card-body">
@@ -46,7 +46,7 @@
 
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn2 ">
                         <img src="{{ asset('images/laravel.png') }}" class="card-img-top" alt="Học Laravel">
                     </div>
                     <div class="card-body">
@@ -58,7 +58,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn1">
                         <img src="{{ asset('images/php.png') }}" class="card-img-top" alt="Học PHP">
                     </div>
                     <div class="card-body">
@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn3">
                         <img src="{{ asset('images/CSS.png') }}" class="card-img-top" alt="Học HTML, CSS và JS">
                     </div>
                     <div class="card-body">
@@ -88,7 +88,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn2">
                         <img src="{{ asset('images/Group.png') }}" class="card-img-top" alt="Học Laravel">
                     </div>
                     <div class="card-body">
@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="card" style="width: 18rem;">
-                    <div class="card-container-img">
+                    <div class="card-container-img img-btn4">
                         <img src="{{ asset('images/java 1.png') }}" class="card-img-top" alt="Học PHP">
                     </div>
                     <div class="card-body">
