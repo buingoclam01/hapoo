@@ -1,3 +1,12 @@
+@font-face {
+  font-family: UTM BrayantLG;
+  src: url('../../assets/fonts/UTM_BryantLG_B.ttf');
+}
+body{
+  font-family: UTM BrayantLG;
+
+}
+
 .banner {
   min-height: 750px;
   margin-top: 110px;
@@ -198,6 +207,7 @@ img{
       justify-content: center;
       align-items: center;
     }
+    
     img {
       height: 125px;
       object-fit: contain;
@@ -205,11 +215,7 @@ img{
     .card-body {
       text-align: center;
     }
-    .card-title,
-    .card-text,
-    .card-btn {
-      font-family: 'UTM BryantLG';
-    }
+    
     .card-title {
       font-size: 30px;
       color: #B2D235;
@@ -226,10 +232,11 @@ img{
       background-color: #B2D235;
       border: 0;
       border-radius: 22px;
-      box-shadow: inset 0px 1.5px 2px #6F8710;
-      padding-top: 5px;
-      padding-bottom: 7px;
+      box-shadow: inset 0px 1.5px 6px #6f8710;
+      padding-top: 10px;
       margin-bottom: 26px;
+      width: 203px;
+      height: 48px;
     }
     .card-btn:active {
       background-color: #B2D235;
@@ -244,7 +251,6 @@ img{
     width: fit-content;
     text-align: center;
     font-size: 60px;
-    font-family: 'UTM BryantLG';
     color: #11114E;
     font-weight: 900;
     line-height: 98px;
@@ -275,7 +281,6 @@ img{
       font-size: 30px;
       color: #90AB26;
       font-weight: 900;
-      font-family: 'UTM BryantLG';
       text-decoration: none;
       
       svg {
@@ -286,4 +291,14 @@ img{
       }
     }
   }
+}
+@media(max-width: 900px){
+.main-content{
+  
+  .row{
+    
+
+  }
+}
+ 
 }
