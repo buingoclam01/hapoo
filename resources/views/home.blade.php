@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="banner">
+<div class="banner">
 
     <div class="banner-container">
        
@@ -14,7 +14,7 @@
                 at HapoLearn <img src="{{ asset('images/banner.png') }}" alt="">!  
             </p>
         </div>
-        <div class="banner-content">
+        <div class="banner-conlit">
                <p>  Interactive lessons, "on-the-go" <br> practice, peer support. </p>
         </div>
             <a href="#" class="button-1">Start Learning Now!</a>
@@ -26,100 +26,308 @@
     <div class="overlay">
            
     </div>
-</section>
+</div>
 
-<section class="content container-center">
+<div class="main-content">
+       <div class="list-items">
+          <div class="items">
+             <div class="img-items img-items1">
+                <img src="{{ asset('images/html-css.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">HTML/CSS/js turtorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+          <div class="items">
+             <div class="img-items img-items2">
+                <img src="{{ asset('images/laravel.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">Laravel tutorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+          <div class="items">
+             <div class="img-items img-items1">
+                <img src="{{ asset('images/php.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">PHP turtorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+       </div>
+    </div>
     <div class="main-content">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn1">
-                        <img src="{{ asset('images/html-css.png') }}" class="card-img-top" alt="Học HTML, CSS và JS">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">HTML/CSS/js Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn2 ">
-                        <img src="{{ asset('images/laravel.png') }}" class="card-img-top" alt="Học Laravel">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">LARAVEL Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn1">
-                        <img src="{{ asset('images/php.png') }}" class="card-img-top" alt="Học PHP">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">PHP Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <p class="big-tittle">
+          Other courses
+       </p>
+       <div class="line-border"></div>
+       <div class="list-items no-tranfer space">
+          <div class="items">
+             <div class="img-items img-items3">
+                <img src="{{ asset('images/CSS.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">HTML/CSS/js turtorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+          <div class="items">
+             <div class="img-items img-items2">
+                <img src="{{ asset('images/Group.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">Laravel tutorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+          <div class="items">
+             <div class="img-items img-items4">
+                <img src="{{ asset('images/java 1.png')}}" alt="">
+             </div>
+             <div class="content-items">
+                <p class="title">PHP turtorial</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="btn-link"> 
+                   <a href="#" >Take This Course</a>
+                </p>
+             </div>
+          </div>
+       </div>
+       <div class="view-more-title">
+          <a href="">View All Our Courses <i class="fa-solid fa-arrow-right"></i></a> 
+       </div>
     </div>
+</div>
 
-    <div class="other-content main-content">
-        <p class="other-content-header">Other course</p>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn3">
-                        <img src="{{ asset('images/CSS.png') }}" class="card-img-top" alt="Học HTML, CSS và JS">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">HTML/CSS/js Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn2">
-                        <img src="{{ asset('images/Group.png') }}" class="card-img-top" alt="Học Laravel">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">LARAVEL Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-container-img img-btn4">
-                        <img src="{{ asset('images/java 1.png') }}" class="card-img-top" alt="Học PHP">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">PHP Tutorial</h5>
-                        <p class="card-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="card-btn btn btn-primary">Take This Course</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="view-all-content">
-            <a href="#">View All Our Courses</a>
-            <a href="">
-            <svg width="48" height="27" viewBox="0 0 48 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M47.0926 13.0413C47.0926 12.4721 46.875 11.9196 46.4732 11.5346L35.5747 0.636161C35.173 0.234375 34.6205 0 34.0513 0C33.4821 0 32.9464 0.234375 32.5446 0.636161L31.289 1.89174C30.8872 2.27679 30.6529 2.82924 30.6529 3.39844C30.6529 3.96763 30.8872 4.52009 31.289 4.90514L36.1942 9.82701H1.95871C0.753348 9.82701 0 10.8315 0 11.9699V14.1127C0 15.2511 0.753348 16.2556 1.95871 16.2556H36.1942L31.289 21.1607C30.8872 21.5625 30.6529 22.115 30.6529 22.6842C30.6529 23.2534 30.8872 23.8058 31.289 24.2076L32.5446 25.4632C32.9464 25.8482 33.4821 26.0826 34.0513 26.0826C34.6205 26.0826 35.173 25.8482 35.5747 25.4632L46.4732 14.5647C46.875 14.1629 47.0926 13.6105 47.0926 13.0413Z" fill="#90AB26"/>
-</svg>
 
-            </a>
-        </div>
+
+
+<div class="banner-content" style="background-image: url('{{ asset('images/image17.png')}}');">
+       <div class="banner-connect-content">
+          <p class="banner-content-title">
+             Why HapoLearn?
+          </p>
+          <p class="text-banner-content">
+             <i class="fa-solid fa-circle-check"></i>  Interactive lessons, "on-the-go" practice, peer support.
+          </p>
+          <p class="text-banner-content">
+             <i class="fa-solid fa-circle-check"></i>  Interactive lessons, "on-the-go" practice, peer support.
+          </p>
+          <p class="text-banner-content">
+             <i class="fa-solid fa-circle-check"></i>  Interactive lessons, "on-the-go" practice, peer support.
+          </p>
+          <p class="text-banner-content">
+             <i class="fa-solid fa-circle-check"></i>  Interactive lessons, "on-the-go" practice, peer support.
+          </p>
+          <p class="text-banner-content">
+             <i class="fa-solid fa-circle-check"></i>  Interactive lessons, "on-the-go" practice, peer support.
+          </p>
+       </div>
+       <div class="banner-content-img">
+          <img src="{{ asset('images/transparen.png')}}" alt="">
+       </div>
+</div>
+
+<div class="feed-back">
+       <p class="big-tittle">
+          Feedback
+       </p>
+       <div class="line-border"></div>
+       <p class="feed-back-slogan">
+          What other students turned professionals have to say about us after learning with us and reaching their goals
+       </p>
+       <div class="list-feedback owl-carousel owl-theme">
+          <div class="item-feed">
+             <div class="content-feed">
+                <div class="line-d"></div>
+                “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+             </div>
+             <div class="user-feed">
+                <div class="avatar">
+                   <img src="{{ asset('images/face2.png')}}" alt="">
+                </div>
+                <div class="info">
+                   <div class="name">
+                      Hoàng Nguyễn Nguyên
+                   </div>
+                   <div class="skill">
+                      PHP
+                   </div>
+                   <div class="star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="item-feed">
+             <div class="content-feed">
+                <div class="line-d"></div>
+                “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+             </div>
+             <div class="user-feed">
+                <div class="avatar">
+                   <img src="{{ asset('images/face2.png')}}" alt="">
+                </div>
+                <div class="info">
+                   <div class="name">
+                      Hoàng Nguyễn Nguyên
+                   </div>
+                   <div class="skill">
+                      PHP
+                   </div>
+                   <div class="star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="item-feed">
+             <div class="content-feed">
+                <div class="line-d"></div>
+                “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+             </div>
+             <div class="user-feed">
+                <div class="avatar">
+                   <img src="{{ asset('images/face2.png')}}" alt="">
+                </div>
+                <div class="info">
+                   <div class="name">
+                      Hoàng Nguyễn Nguyên
+                   </div>
+                   <div class="skill">
+                      PHP
+                   </div>
+                   <div class="star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="item-feed">
+             <div class="content-feed">
+                <div class="line-d"></div>
+                “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+             </div>
+             <div class="user-feed">
+                <div class="avatar">
+                   <img src="{{ asset('images/face2.png')}}" alt="">
+                </div>
+                <div class="info">
+                   <div class="name">
+                      Hoàng Nguyễn Nguyên
+                   </div>
+                   <div class="skill">
+                      PHP
+                   </div>
+                   <div class="star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div class="item-feed">
+             <div class="content-feed">
+                <div class="line-d"></div>
+                “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+             </div>
+             <div class="user-feed">
+                <div class="avatar">
+                   <img src="{{ asset('images/face2.png')}}" alt="">
+                </div>
+                <div class="info">
+                   <div class="name">
+                      Hoàng Nguyễn Nguyên
+                   </div>
+                   <div class="skill">
+                      PHP
+                   </div>
+                   <div class="star">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
     </div>
-</section>
+    <div class="banner-startlearn" style="background-image: url('{{ asset('images/banner3.png')}}');">
+       <div class="banner-startlearn-content">
+          <p class="banner-startlearn-title">
+             Become a member of our growing community!
+          </p>
+          <p class="banner-startlearn-link">
+             <a href="">Start Learning Now!</a>
+          </p>
+       </div>
+    </div>
+    <div class="stactistic">
+       <p class="big-tittle">
+          Stactistic
+       </p>
+       <div class="line-border"></div>
+       <div class="list-statistic">
+          <div class="list-item">
+             <div class="list-items-title">
+                Courses
+             </div>
+             <div class="list-item-number">
+                1,5894
+             </div>
+          </div>
+          <div class="list-item">
+             <div class="list-items-title">
+             Lessons
+             </div>
+             <div class="list-item-number">
+             2,689
+             </div>
+          </div>
+          <div class="list-item">
+             <div class="list-items-title">
+             Learners
+             </div>
+             <div class="list-item-number">
+             16,882
+             </div>
+          </div>
+       </div>
+</div>
+
 @endsection
