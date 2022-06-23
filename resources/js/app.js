@@ -45,3 +45,9 @@ overlay.addEventListener('click', ()=> {
     overlay.classList.toggle("overlay-close");
     overlay.classList.toggle("overlay-open");
 });
+$('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+  
