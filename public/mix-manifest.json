@@ -2,6 +2,7 @@
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
     "/images/banner.png": "/images/banner.png",
+    "/images/banner3.png": "/images/banner3.png",
     "/images/bannerhome.png": "/images/bannerhome.png",
     "/images/CSS.png": "/images/CSS.png",
     "/images/face2.png": "/images/face2.png",
@@ -20,6 +21,5 @@
     "/fonts/utm_bryantlg-webfont.woff": "/fonts/utm_bryantlg-webfont.woff",
     "/fonts/utm_bryantlg-webfont.woff2": "/fonts/utm_bryantlg-webfont.woff2",
     "/fonts/UTM_BryantLG.ttf": "/fonts/UTM_BryantLG.ttf",
-    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf",
-    "/images/banner3.png": "/images/banner3.png"
+    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf"
 }

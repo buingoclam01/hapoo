@@ -25,6 +25,7 @@
     @include('layouts.footer')
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <scrip src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></scrip>
+    
     <script src="{{ asset('js/app.js') }}"></script>
     
 </body>

@@ -1,19 +1,19 @@
 .footer-logo {
-    width: 291.6px !important;
-    height: 60px !important;
+    width: 291.6px ;
+    height: 60px ;
     img {
-      width: 100% !important;
-      height: 100% !important;
+      width: 100% ;
+      height: 100% ;
     }
   }
 
   footer {
-    background-color: #505353 !important;
+    background-color: #505353 ;
   }
   .footer-content {
     width: 90%;
     margin: 0 auto;
-    height: 200px !important;
+    height: 200px ;
     display: flex;
   }
 
@@ -36,7 +36,7 @@
     a {
       margin: 20px;
       i {
-        color: #fff !important;
+        color: #fff ;
       }
     }
   }
@@ -67,25 +67,25 @@
   .footer-mobie {
     display: block;
     .footer-mobie-content {
-      width: 95% !important;
+      width: 95% ;
       margin: 0 auto;
       .w-50 {
-        float: left !important;
+        float: left ;
         margin: 10px;
-        width: 40% !important;
+        width: 40% ;
       }
     } 
   }
   .list-icon {
-    padding-left: 50px !important;
+    padding-left: 50px ;
     .icon-item {
       a {
-        margin: 10px !important;
+        margin: 10px ;
       }
     }
   }
   .footer {
-    display: none !important;
+    display: none ;
   }
   .slogan-company{
     margin-top: 10px;
