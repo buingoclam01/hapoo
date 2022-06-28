@@ -39,7 +39,7 @@
              </div>
              <div class="content-items">
                 <p class="title">HTML/CSS/js turtorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>
@@ -51,7 +51,7 @@
              </div>
              <div class="content-items">
                 <p class="title">Laravel tutorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>
@@ -63,7 +63,7 @@
              </div>
              <div class="content-items">
                 <p class="title">PHP turtorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>
@@ -81,7 +81,7 @@
              </div>
              <div class="content-items">
                 <p class="title">HTML/CSS/js turtorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>
@@ -93,7 +93,7 @@
              </div>
              <div class="content-items">
                 <p class="title">Laravel tutorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>
@@ -105,7 +105,7 @@
              </div>
              <div class="content-items">
                 <p class="title">PHP turtorial</p>
-                <p class="content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
+                <p class="content-text">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
                 <p class="btn-link">
                    <a href="#" >Take This Course</a>
                 </p>

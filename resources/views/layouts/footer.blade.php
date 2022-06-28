@@ -11,21 +11,21 @@
                     </div>
                     <div class="col-md-1 col-lg-1 col-xl-1 mx-auto">
                         <p>
-                            <a href="#!" class="text-reset">Home</a>
+                            <a href="#" class="text-reset">Home</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">List course</a>
+                            <a href="#" class="text-reset">List course</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">List lesson</a>
+                            <a href="#" class="text-reset">List lesson</a>
                         </p>
                     </div>
                     <div class="col-md-1 col-lg-1 col-xl-1 mx-auto p-0">
                         <p>
-                            <a href="#!" class="text-reset">Lesson detail</a>
+                            <a href="#" class="text-reset">Lesson detail</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset">Login/Register</a>
+                            <a href="#" class="text-reset">Login/Register</a>
                         </p>
                         <p>
                             <a href="#!" class="text-reset">Profile</a>
@@ -67,6 +67,7 @@
     </div>
     <div class="footer-mobie">
         <div class="footer-mobie-content">
+            <div class ="footer-heal">
             <div class="w-50">
                 <p>
                     <a href="#!" class="text-reset">Home</a>
@@ -80,22 +81,21 @@
             </div>
             <div class="w-50">
                 <p>
-                    <a href="#!" class="text-reset">Lesson detail</a>
+                    <a href="#!" class="text-reset">Contact</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Login/Register</a>
+                    <a href="#!" class="text-reset">Courses</a>
                 </p>
                 <p>
-                    <a href="#!" class="text-reset">Profile</a>
+                    <a href="#!" class="text-reset">Blog</a>
                 </p>
             </div>
-            <div class="w-50">
-                <div class="footer-logo " href="#">
+            </div>
+            
+            <div class="footer-foter">
+                <div class="w-50">
                     <img src="{{ asset('images/hapo_white.png') }}" alt="HapoLearn Logo">
                 </div>
-                <p class="slogan-company"> Interactive lessons, "on-the-go" practice, peer support </p>
-            </div>
-            <div class="w-50">
                 <div class="list-icon">
                     <p class="icon-item">
                         <a href="">
@@ -112,8 +112,18 @@
                             <i class="fa-solid fa-phone"></i>
                         </a>
                     </p>
+                     
                 </div>
+               
+
             </div>
+
+            <p class="slogan-company">
+              Interactive lessons, "on-the-go" practice, peer support.</p> 
+            </div>
+           
+            </div>
+            
         </div>
     </div>
     <div class="clear"></div>
