@@ -10,7 +10,6 @@
                 </div>
             </div>
         </div>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto w-100">
                 <li class="nav-item active">

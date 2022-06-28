@@ -22,6 +22,9 @@
     <main>
         @yield('content')
     </main>
+    @include('layouts.whyhapo')
+    @include('layouts.feedback')
+    @include('layouts.stalic')
     @include('layouts.footer')
 
     <script src="{{ asset('js/app.js') }}"></script>

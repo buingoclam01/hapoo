@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-
+require('./slick');
 window.Vue = require('vue').default;
 
 /**
@@ -45,3 +45,4 @@ overlay.addEventListener('click', ()=> {
     overlay.classList.toggle("overlay-close");
     overlay.classList.toggle("overlay-open");
 });
+
