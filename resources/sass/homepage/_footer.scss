@@ -8,7 +8,7 @@
 }
 
 footer {
-  background-color: #505353;
+  background-color: gray;
 }
 
 .footer-content {
@@ -23,7 +23,7 @@ footer {
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.05em;
-  color: #ffffff;
+  color: white;
   text-align: left;
   margin-left: 60px;
 }
@@ -37,14 +37,14 @@ footer {
   a {
     margin: 20px;
     i {
-      color: #fff;
+      color: white;
     }
   }
 }
 
 .list-address a {
   text-align: left;
-  color: #fff;
+  color: white;
   &:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -84,8 +84,7 @@ footer {
     font-size: 20px;
     margin-top: 20px;
     line-height: 24px;
-    letter-spacing: em;
-    color: #ffffff;
+    color: white;
     text-align: left;
     margin-left: -5px;
 }
